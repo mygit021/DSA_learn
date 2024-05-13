@@ -1,3 +1,6 @@
 {
-    "C_Cpp.default.compilerPath": "c:\\Utsav\\C\\DSA\\io.cpp"
+    "C_Cpp.default.compilerPath": "c:\\Utsav\\C\\DSA\\io.cpp",
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }
