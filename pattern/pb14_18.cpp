@@ -26,6 +26,28 @@ int main(){
         for(int j = 0; j <= i; j++){
             cout << char(num+i);
         }
+        cout << endl;   
+    }
+    cout << endl << "pattern 17"<< endl;
+    for(int i = 1; i <= N; i++){
+        for(int j = N-i; j>0; j--){
+            cout << " ";
+        }
+        for(int j = 0; j < i; j++){
+            cout << char(num+j);
+        }
+        for(int j = i-1; j > 0; j--){
+            cout << char(num+j-1);
+        }
+        cout << endl;   
+    }
+    cout << endl << "pattern 18"<< endl;
+    int num2 = 'E';
+    for(int i = 1; i <= N; i++){
+        for(int j = i; j > 0; j--){
+            cout << char(num2-j+1);
+        }
         cout << endl;
     }
+    return 0;
 }
