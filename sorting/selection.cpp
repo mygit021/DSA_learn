@@ -7,7 +7,8 @@ void selection(int* a, int length);
 
 
 int main (){
-    int arr[] = {13, 9, 15, 5, 45, 789, 98, 68};
+    // int arr[] = {13, 9, 15, 5, 45, 789, 98, 68};
+    int arr[] = {5, 1 , 3 , 4 , 8, 7, 9, 0, 5, 2};
     int length = sizeof(arr)/sizeof(int);
     cout << "\nBefore sorting the array is: ";
     printarray(arr, length);
