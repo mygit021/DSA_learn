@@ -23,8 +23,11 @@ void bubble(int* a, int length){
         for(int j = 0; j < i; j++){
             if(*(a+j) > *(a+j+1)){
                 swapArrayElement(a , j+1 , j+2);
+                // cout << "\ninner loop: ";
+                // printarray(a, length);
             }
         }
+        // printarray(a, length);
     }
 
 }
