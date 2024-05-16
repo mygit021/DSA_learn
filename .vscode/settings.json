@@ -2,6 +2,7 @@
     "C_Cpp.default.compilerPath": "c:\\Utsav\\C\\DSA\\io.cpp",
     "files.associations": {
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "iomanip": "cpp"
     }
 }
